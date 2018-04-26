@@ -20,7 +20,7 @@ redis和memcached是网站必不可少会碰到的缓存解决方案，弄清两
 # 说明图
 
 先看下说明图，了解大概知识点。
-[![说明图](http://www.shuizblog.com/style/images/BlankPortrait_20180425.png)](http://www.shuizblog.com/style/images/BlankPortrait_20180425.png)
+[![说明图]({{site.url}}/style/images/BlankPortrait_20180425.png)]({{site.url}}/style/images/BlankPortrait_20180425.png)
 
 
 
