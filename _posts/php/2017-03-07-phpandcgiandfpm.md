@@ -21,7 +21,7 @@ tags:
 # 流程图
 
 先看下流程图，了解请求的动向。
-[![流程图](http://www.shuizblog.com/style/images/Graph_20180416.png)](http://www.shuizblog.com/style/images/Graph_20180416.png)
+[![流程图]({{site.url}}/style/images/Graph_20180416.png)]({{site.url}}/style/images/Graph_20180416.png)
 
 # 流程讲解
 
