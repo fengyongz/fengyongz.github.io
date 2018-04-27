@@ -5,7 +5,7 @@ title: "利用github、jekyll打造个人github pages博客"
 keywords: "github|jekyll|github pages|个人博客"
 background-image: /style/images/BlankPortrait_20180426.png
 date:  2018-04-26 14:30
-category: github
+category: jekyll博客
 tags:
 - github
 - github pages
