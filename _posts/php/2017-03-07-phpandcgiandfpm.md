@@ -3,7 +3,7 @@ layout: blog
 istop: true
 title: "php和cgi、fastcgi、php-fpm之间的关系"
 keywords: "php|cgi|fastcgi|php-fpm"
-background-image: https://o243f9mnq.qnssl.com/2017/06/116099051.jpg
+background-image: /style/images/Graph_20180416.png
 date:  2018-04-22 17:35
 category: php
 tags:
