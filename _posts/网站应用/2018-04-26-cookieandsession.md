@@ -56,3 +56,6 @@ set_cookie('xxxID', xxx)。
 
 之后客户端再发送请求，就会带上cookie里的会话session id，来以此带到保持会话的状态。
 
+### 参考资料
+- [【浅谈COOKIE和SESSION关系和区别等】](http://www.cnblogs.com/phphuaibei/archive/2011/11/15/2250082.html)
+
