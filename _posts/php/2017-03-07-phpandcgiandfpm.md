@@ -3,7 +3,7 @@ layout: blog
 istop: true
 title: "php和cgi、fastcgi、php-fpm之间的关系"
 keywords: "php|cgi|fastcgi|php-fpm"
-background-image: /style/images/Graph_20180416.png
+background-image: https://o243f9mnq.qnssl.com/2017/06/116099051.jpg
 date:  2018-04-22 17:35
 category: php
 tags:
@@ -73,8 +73,8 @@ php-cgi有缺点，其中包括：
 脚本语言程序处理完后，再按标准传输数据回http服务器，最后返回给客户端浏览器，完成请求。
 
 ## 参考资料
-- [CGI、FastCGI和PHP-FPM关系图解](https://www.awaimai.com/371.html)
-- [搞不清FastCgi与PHP-fpm之间是个什么样的关系](https://segmentfault.com/q/1010000000256516)
-- [php-cgi和php-fpm有什么关系](https://segmentfault.com/q/1010000008356979)
-- [FastCGI](http://www.php-internals.com/book/?p=chapt02/02-02-03-fastcgi)
+- [【CGI、FastCGI和PHP-FPM关系图解】](https://www.awaimai.com/371.html)
+- [【搞不清FastCgi与PHP-fpm之间是个什么样的关系】](https://segmentfault.com/q/1010000000256516)
+- [【php-cgi和php-fpm有什么关】](https://segmentfault.com/q/1010000008356979)
+- [【FastCG】](http://www.php-internals.com/book/?p=chapt02/02-02-03-fastcgi)
 

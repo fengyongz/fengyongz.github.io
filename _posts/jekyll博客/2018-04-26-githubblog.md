@@ -40,9 +40,9 @@ ssh-keygen生成key后，复制到github的用户设置setting-ssh里。
 
 ### 本地电脑安装jekyll和下载主题
 
-安装jekyll，可参考官网或者：
-- [jekyll中文官网](http://jekyllcn.com/)
-- [教你使用Jekyll快速搭建个人博客](https://www.jianshu.com/p/b27b98a2a774)
+安装jekyll，可参考：
+- [【jekyll中文官网】](http://jekyllcn.com/)
+- [【教你使用Jekyll快速搭建个人博客】](https://www.jianshu.com/p/b27b98a2a774)
 
 把jekyll文件添加到本地仓库文件夹。
 
@@ -51,7 +51,7 @@ ssh-keygen生成key后，复制到github的用户设置setting-ssh里。
 
 这里需要配置nginx，添加本地https域名解析：https://xxxx.github.io。
 因为线上github为https，所以本地也做https的处理。
-- [在本地开发环境(Mac)中安装自签名证书，启用https](https://segmentfault.com/a/1190000012394467)
+- [【在本地开发环境(Mac)中安装自签名证书，启用https】](https://segmentfault.com/a/1190000012394467)
 
 
 然后bundle exec jekyll build，生成本地文件，更改host查看博客效果。

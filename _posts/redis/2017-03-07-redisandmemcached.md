@@ -23,6 +23,6 @@ redis和memcached是网站必不可少会碰到的缓存解决方案，弄清两
 
 
 ## 参考资料
-- [Redis,Memcache的区别和具体应用场景及选择](http://www.liberxue.com/2017/07/30/memcacheandredis.html)
+- [【Redis,Memcache的区别和具体应用场景及选择】](http://www.liberxue.com/2017/07/30/memcacheandredis.html)
 
 
