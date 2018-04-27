@@ -2,15 +2,13 @@
 layout: blog
 istop: true
 title: "redis和memcached之间的关系和区别"
-background-image: https://o243f9mnq.qnssl.com/2017/06/116099051.jpg
+keywords: "redis|memcached"
+background-image: /style/images/BlankPortrait_20180425.png
 date:  2018-04-22 17:35
 category: redis 
 tags:
-- php
-- cgi
-- php-cgi
-- fastcgi
-- php-fpm
+- redis
+- memcached
 ---
  
 # 目的

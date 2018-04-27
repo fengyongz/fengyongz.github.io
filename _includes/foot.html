@@ -16,13 +16,11 @@
             <div class="meta-item meta-copyright">
                 <div class="meta-copyright-info">
                     <a href="/" class="info-logo">
-                         <img src="{{ site.url }}/style/images/logo-liberxue.png"   title="访问 LiberXue_blog" data-hover="LiberXue_blog" alt="LiberXue_blog" /> </a>
+                         <img src="{{ site.url }}/style/images/logo.png"   title="访问 LiberXue_blog" data-hover="LiberXue_blog" alt="LiberXue_blog" /> </a>
                     <div class="info-text">
-                        <p>Theme is <a href="http://www.liberxue.com/2017/08/03/Jekyllthemes.html" title="访问 Jekyll liberxue主题"  data-hover="Jekyll liberxue"target="_blank">Jekyll liberxue</a> by <a href="http://www.liberxue.com/about" target="_blank">liberxue</a></p>
-                        <p>Powered by <a href="{{ site.url }}/tags/#Jekyll" title="Jekyll" data-hover="Jekyll" target="_blank" rel="nofollow">Jekyll</a></p>
-                        <p>&copy; 2017 <a href="/feed.xml"  title="访问 liberxue blog RSS" data-hover="liberxue blog RSS">liberxue blog RSS</a></p>
+                        <p>&copy; 2017 - 2018 fengyongz‘s blog</p>
                         <p>总计文章：{{paginator.total_posts}}篇</p>
-                      <p>本blog已开源点击Fork</p><iframe src="http://ghbtns.com/github-btn.html?user=liberxue&repo=liberxue.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+                        <p>Powered by <a href="http://jekyllcn.com/" title="Jekyll" data-hover="Jekyll" target="_blank" rel="nofollow">Jekyll</a> Theme by <a href="http://www.liberxue.com/2017/08/03/Jekyllthemes.html" title="访问 Jekyll liberxue主题"  data-hover="Jekyll liberxue"target="_blank"> liberxue</p>
                     </div>
                 </div>
             </div>
@@ -34,17 +32,17 @@
       <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
-        <!--置顶-->
+        <!--最新-->
             </div>
             <div class="meta-item meta-comments">
-                <h3 class="meta-title">最新文章</h3>
-  {% for post in site.posts limit:14 %}        
-      {% if post.book %}
- <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</div>
-		</div>
+                <h3 class="meta-title">最新书籍</h3>
+              {% for post in site.posts limit:15 %}       
+              {% if post.book %} 
+              <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title }}</a></li>
+              {% endif %}
+              {% endfor %}
+            </div>
+		  </div>
     </div>
 </footer>
 <script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>

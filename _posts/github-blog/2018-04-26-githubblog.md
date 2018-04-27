@@ -1,8 +1,9 @@
 ---
 layout: blog
 istop: true
-title: "利用github、jekyll打造个人github page博客"
-background-image: https://o243f9mnq.qnssl.com/2017/06/116099051.jpg
+title: "利用github、jekyll打造个人github pages博客"
+keywords: "github|jekyll|github pages|个人博客"
+background-image: /style/images/BlankPortrait_20180426.png
 date:  2018-04-26 14:30
 category: github
 tags:
