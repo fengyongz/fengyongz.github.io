@@ -19,7 +19,9 @@
                          <img src="{{ site.url }}/style/images/logo.png"   title="访问 LiberXue_blog" data-hover="LiberXue_blog" alt="LiberXue_blog" /> </a>
                     <div class="info-text">
                         <p>&copy; 2017 - 2018 fengyongz‘s blog</p>
+                        {% if paginator %}
                         <p>总计文章：{{paginator.total_posts}}篇</p>
+                        {% endif %}
                         <p>Powered by <a href="http://jekyllcn.com/" title="Jekyll" data-hover="Jekyll" target="_blank" rel="nofollow">Jekyll</a> Theme by <a href="http://www.liberxue.com/2017/08/03/Jekyllthemes.html" title="访问 Jekyll liberxue主题"  data-hover="Jekyll liberxue"target="_blank"> liberxue</p>
                     </div>
                 </div>
