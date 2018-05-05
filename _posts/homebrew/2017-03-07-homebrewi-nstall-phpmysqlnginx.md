@@ -66,7 +66,10 @@ pecl默认安装的是扩展包的最新版本，可以自己指定扩展包版�
 
 ### brew安装nginx
 
-`brew install nginx`
+	brew install nginx
+	[sudo ]brew service start|reload|stop|restart nginx
+
+**nginx更改配置后，测试必须加上sudo，不然加载不到新的配置**
 
 
 ## 参考资料
