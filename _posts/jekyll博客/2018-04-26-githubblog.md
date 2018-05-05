@@ -60,6 +60,10 @@ ssh-keygen生成key后，复制到github的用户设置setting-ssh里。
 
 这样就可以直接git push。
 
+参考：
+- [【Github ssh key生成，免密登录服务器方法】](https://deepzz.com/post/github-generate-ssh-key.html)
+- [【Generating a new SSH key and adding it to the ssh-agent】](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
 ### 本地电脑安装jekyll和下载主题
 
 安装jekyll，可参考：
