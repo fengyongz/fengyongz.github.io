@@ -36,6 +36,28 @@ tags:
 为了方便git push不需要验证用户名和密码，这里需要用到ssh。
 
 ssh-keygen生成key后，复制到github的用户设置setting-ssh里。
+
+本地开启ssh-agent
+
+	eval "$(ssh-agent -s)"
+
+添加生成的ssh-key到agent里
+
+	ssh-add ~/.ssh/id_rsa
+
+测试链接
+
+	ssh -T git@github.com
+
+成功即可使用 git@github.com:用户名/仓库名进行克隆和提交
+
+	git clone git@github.com:xxx/xxxx
+
+如果之前是https链接克隆下来的，则更改项目的.git/config文件里的url地址，改成git@github.com:xxx/xxxx
+
+	[remote "origin"]
+    url = git@github.com:xxx/xxxx
+
 这样就可以直接git push。
 
 ### 本地电脑安装jekyll和下载主题
