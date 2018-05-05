@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-title: "web实时消息-thinkphp结合workerman的web-msg-sender项目"
+title: "web站内实时消息-thinkphp结合workerman的web-msg-sender项目"
 keywords: "thinkphp|workermen|web-msg-sender|实时消息"
 background-image: /style/images/BlankPortrait_201805051.png
 date:  2018-05-05 14:35
@@ -162,7 +162,9 @@ workerman是一个支持长连接的socket框架，基于php开发。web-msg-sen
 
 ### 参考资料
 
-- [【最完美解决Nginx部署ThinkPHP项目的办法】](https://blog.csdn.net/tinico/article/details/18033573)
+- [【thinkphp5结合workerman的消息推送实例_基于web-msg-sender进行消息推送】](https://blog.csdn.net/h330531987/article/details/78081392)
+- [【使用 web-msg-sender 进行实时消息通知推送】](http://www.ptbird.cn/web-msg-sender-send-content.html)
+- [【基于workerman的集群推送例子】](https://blog.csdn.net/qq_28666081/article/details/51052100)
 
 
 
