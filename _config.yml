@@ -8,7 +8,7 @@ signoff:          "水蛭" # Your name
 google_analytics: "UA-118293804-1"
 share:            true 
 # 分页
-paginate: 15
+paginate: 9
 paginate_path: "page:num"
 gems: [jekyll-paginate]
 links:
