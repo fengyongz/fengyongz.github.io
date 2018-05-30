@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "redis和memcached之间的关系和区别"
 keywords: "redis|memcached"
 background-image: /style/images/BlankPortrait_20180425.png
